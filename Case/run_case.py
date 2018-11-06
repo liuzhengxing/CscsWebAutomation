@@ -2,7 +2,10 @@
 import unittest
 import time
 import sys
-sys.path.append('C:\Users\liuzx\PycharmProjects\CscsWebAutomation')
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 from Common import HTMLTestRunnerCN
 from pathlib import Path
 

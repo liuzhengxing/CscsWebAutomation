@@ -25,8 +25,7 @@ class TestPage3(unittest.TestCase):
 
     @classmethod
     def tearDownClass(self):
-        pass
-        # self.pm.close_browser()
+        self.pm.close_browser()
 
 if __name__=='__main__':
     unittest.main()
