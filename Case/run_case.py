@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import  unittest
+import unittest
 import time
 from Common import HTMLTestRunnerCN
 from pathlib import Path
