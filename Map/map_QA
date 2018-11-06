@@ -1,0 +1,67 @@
+{
+    "登录页面": {
+        "用户名": {
+            "property": "input",
+            "type": "xpath",
+            "value": "//input[@formcontrolname='username']"
+        },
+        "密码": {
+            "property": "input",
+            "type": "xpath",
+            "value": "//input[@formcontrolname='password']"
+        },
+        "验证码": {
+            "property": "input",
+            "type": "xpath",
+            "value": "//input[@id='authCode']"
+        },
+        "登录": {
+            "property": "button",
+            "type": "xpath",
+            "value": "//button"
+        }
+    },
+    "首页": {
+        "退出": {
+            "property": "link",
+            "type": "xpath",
+            "value": "//span[text()='退出']"
+        }
+    },
+    "投资者和产品评级总览页面": {
+        "投资者和产品评级总览": {
+            "property": "link",
+            "type": "xpath",
+            "value": "//span[text()='投资者和产品评级总览']"
+        }
+    },
+    "普通投资者画像筛选页面": {
+        "普通投资者画像筛选": {
+            "property": "link",
+            "type": "xpath",
+            "value": "//span[text()='普通投资者画像筛选']"
+        },
+        "普通投资者画像筛选文本": {
+            "property": "string",
+            "type": "xpath",
+            "value": "//span[@class='ant-breadcrumb-link']"
+        },
+        "投资者": {
+            "property": "input",
+            "type": "xpath",
+            "value": "//input"
+        }
+    },
+    "适当性风险监测页面": {
+        "适当性风险监测": {
+            "property": "link",
+            "type": "xpath",
+            "value": "//span[text()='适当性风险监测']"
+        },
+        "查看具体产品":{
+            "property": "button",
+            "type": "xpath",
+            "value": "//span[text()='查看具体产品']/.."
+        }
+    }
+}
