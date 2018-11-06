@@ -4,6 +4,9 @@ import time
 from Common import HTMLTestRunnerCN
 from pathlib import Path
 
+import sys
+sys.path.append('CscsWebAutomation')
+
 #取当前工作路径
 BaseDir = Path.cwd()
 
