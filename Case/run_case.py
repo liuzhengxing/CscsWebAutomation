@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
 import unittest
 import time
+import sys
+sys.path.append('C:\Users\liuzx\PycharmProjects\CscsWebAutomation')
 from Common import HTMLTestRunnerCN
 from pathlib import Path
-
-import sys
-import os
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
-sys.path.append(rootPath)
 
 #取当前工作路径
 BaseDir = Path.cwd()
