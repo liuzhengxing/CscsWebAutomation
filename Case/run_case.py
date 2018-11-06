@@ -5,7 +5,10 @@ from Common import HTMLTestRunnerCN
 from pathlib import Path
 
 import sys
-sys.path.append('CscsWebAutomation')
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 #取当前工作路径
 BaseDir = Path.cwd()
